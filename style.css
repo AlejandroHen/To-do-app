@@ -9,3 +9,152 @@
  body {
     font-family: "Poppins", serif;
  }
+
+ .nav-bar {
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 350px;
+    height: 97vh;
+    padding: 15px;
+    margin: 15PX;
+    border-radius: 15px;
+    position: relative;
+ }
+
+ .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .top-nav button {
+    border: none;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+ }
+
+ .menu-icon {
+    width: 30px;
+    height: 30px;
+ }
+
+ .search-bar {
+    display: flex;  
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border: solid #a4a4a4 1px;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 10px;
+ }
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+ }
+
+ .search-field {
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    width: 100%;
+ }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 10px;
+    margin: 20px 0;
+ }
+
+ .item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    gap: 10px;
+    position: relative;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .icon {
+    width: 20px;
+    height: 20px;
+ }
+
+ .color-icon {
+    height: 15px;
+    width: 15px;
+    border-radius: 5px;
+ }
+
+ .color1 {
+    background-color: aqua;
+ }
+ .color2 {
+    background-color: blueviolet;
+ }
+
+ .count {
+    position: absolute;
+    left: 90%;
+    background-color: #dddddd;
+    padding: 1.5px 7px;
+    border-radius: 5px;
+    font-weight: 600;
+ }
+
+ .settings-button {
+    position: absolute;
+    top: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+ }
+
+.btn:hover {
+    font-weight: 800;
+    background-color: #dddddd;
+
+    .count {
+        background-color: #fff;
+        font-weight: 600;
+    }
+}
+
+.tag {
+    width: max-content;
+    padding: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #dddddd;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.tag1 {
+    background-color: aquamarine;
+}
+
+
