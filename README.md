@@ -3,6 +3,6 @@
 <li>Create tasks</li>
 <li>complete tasks</li>
 <li>remove tasks</li> 
-<li>svae all tasks in browser</li>
+<li>Saves all data in browser</li>
 <br>
 <p>Thank you for viewing one of my first projects.</p>
